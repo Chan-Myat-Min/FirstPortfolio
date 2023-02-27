@@ -1,0 +1,176 @@
+@import url("./responsive.css");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* for global css */
+.layout{
+    padding: 7rem;
+}
+
+/* for nav bar  */
+.navbar{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 7rem;
+    background-color: bisque;
+}
+
+
+.logo-img{
+    width: 40px;
+}
+
+.menu-items{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.menu-item a{
+    color: black;
+}
+
+.menu-bar{
+    display: none;
+}
+
+
+/* for hero section  */
+.hero-section{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    gap: 5em;
+    background: url("../img/hero-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.hero-content{
+    padding-top: 10em;
+}
+
+.hero-heading-1{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.hero-heading-2{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-btn{
+    padding: 10px 20px;
+    background-color: yellow;
+    margin-top: 15px;
+
+}
+
+.hero-img{
+margin-top: 5em;
+}
+
+
+/* for about section  */
+.about-section{
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: aqua;
+    width: 100%;
+    gap: 2em;
+}
+
+.photo-detail{
+ /* display: grid;
+ place-items: center; */
+ flex: 30%;
+}
+.hero-img-about{
+    width: 80%;
+    height: auto;
+}
+.about-detail-content{
+    flex: 70%;
+    display: flex;
+    /* border: 1px solid red; */
+    margin-right: 0;
+    margin: 50px 70px 80px 30px;
+    border-radius: 30px;
+    max-height: 80vh;
+
+}
+#about-page{
+    color: green;
+    margin: 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+/* ===================for project section  ===============================================*/
+.project-section{
+    width: 100%;
+    display: flex;
+    gap: 10em;
+    color: rebeccapurple;
+    text-align: center;
+    min-height: 100vh;
+    /* background-color: rgb(255, 255, 255); */
+    margin-right: 0%;
+    padding: 0;
+}
+
+h2{
+    text-align: center;
+    background-color: rgb(85, 85, 235);
+    height: 2.5em;
+    padding-top: 16px;
+    font-size: 2rem;
+}
+#project-image1, #project-image2, #project-image3, #project-image4{
+    /* border: 2px solid red; */
+    border-radius: 5%;
+    padding: 30px;
+    margin-top: 5%;
+    width: 100%;
+    padding-left: 10%;
+    position: relative; 
+    margin-right: 0;
+}
+#pj1, #pj2, #pj3, #pj4{
+    padding-bottom: 20px;
+    text-align: center;
+    padding-left: 15px;
+}
+
+
+/* for contact section  */
+.contact-section{
+    min-height: 100vh;
+    background-color: brown;
+    text-align: center;
+}
+.c1-A{
+    text-align: left;
+}
+
+/* for about section.. */
+
+
